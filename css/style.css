@@ -1,0 +1,287 @@
+:root {
+    --qirmizi: #fd634d;
+    --yasil: #a1c927;
+}
+header{
+    position: relative;
+    background: url(../img/headerbg.jpg) 50%/cover;
+    height: 100vh;
+}
+nav, #title{
+    position: absolute;
+   width: 100%;
+}
+#title{
+    bottom: 148px;
+}
+
+menu li a{
+    font: .8em 'Avenir Next Rounded', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 23px 91px 0 0;
+}
+menu li{
+    display: inline-block;
+}
+
+
+
+#title h1{
+    text-transform: uppercase;
+    color: #fff;
+    font: normal 2em 'Myriad Pro' ;
+}
+
+#title h5{
+font: normal .9em 'Myriad Pro';
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #fff;
+}
+h1 span{
+    color: #a2ca28;
+}
+h2{
+   
+font-size: 2em;
+
+text-transform: uppercase;
+
+font-weight: 300;
+font-family: "Open Sans";
+text-align: center;
+}
+h5 span{
+    
+    color: #a94d42;
+}
+h6{
+    font:  .8em Montserrat ;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.titlep{
+    
+font-size: .85em;
+line-height: 26px;
+color: #656e74;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
+nav{
+top: 40px;
+padding: 0 50px;
+}
+.bgqirmizi{background-color: var(--qirmizi);}
+.bgyasil{background-color: var(--yasil);}
+.bgag{background-color: #fff;}
+.txtyasil{color: var(--yasil);}
+.txtqirmizi{color: var(--qirmizi);}
+.txtag{color: #fff}
+.height50{min-height: 50vh;}
+.artpadding{padding: 54px 38px;}
+.center{text-align: center;}
+.txtleft{text-align: left;}
+
+#art4{padding: 70px 0;}
+#art4 article {
+padding: 35px 10px;}
+#art4 article i { font-size: 2.8em;}
+#fitnessfirst{background: url(../img/fitnessfirst.jpg) center/cover }
+#yourbody{background:url(../img/yourbody.jpg) center/cover}
+.fa-droplet{
+    font-size: 1.3em;
+    color: #e3e9e9;
+}
+.fa-user{
+    font-size: 1.3em;
+    color: #e3e9e9;
+}
+.underline{
+    text-decoration: underline;
+}
+#lifestyle{background:url(../img/lifestyle.jpg) center/cover }
+#summeroffun{background: url(../img/summeroffun.jpg) center/cover}
+.summerh2{
+   
+font-size: 2em;
+
+text-transform: uppercase;
+
+font-weight: 300;
+font-family: "Open Sans";
+}
+.summerpadding{padding: 60px;}
+#grape{background: url(../img/grape.jpg) center/cover}
+.fa-lemon{
+    font-size: 2em;
+    color: #e3e9e9;
+}
+#mango{background: url(../img/mango.jpg)center/cover}
+.fa-pepper-hot{
+    font-size: em;
+    color: #e3e9e9;
+}
+.section1
+{background:url(../img/section.jpg) center/cover;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 15px;
+h2{
+font-size: 2em;
+color: #fff;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+}
+p{
+font-size: 1em;
+line-height: 23px;
+color: #fff;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+}
+}
+
+footer{
+   padding: 30px 10px;
+    background-color: #0c1119;
+    
+    margin: auto;
+}
+.footertop{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ 
+}
+
+.footertitle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h3{
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Open Sans";
+    }
+    p{
+        font-size: 14px;
+        line-height: 24px;
+        color: #8297a7;
+        font-weight: 400;
+        font-family: "Open Sans";
+    }
+    .icons i{
+        font-size: 2em;
+        letter-spacing: 10px;
+    }
+}
+
+.footerbottom{
+    margin: 20px 0;
+    
+    form{
+        display: flex;
+        gap: 5px;
+
+        input{
+           padding: 20px 22px;
+           border-radius: 5px;
+           border: 0px;
+       }
+       button{
+        background-color: var(--yasil);
+        padding: 20px 32px;
+        color: #fff ;
+        border-radius: 5px;
+        border: 0px;
+        span{
+            color: var(--yasil);
+            background: #fff;
+            padding: 2px;
+            border-radius: 50%;
+        }
+       }
+    }
+    
+}
+
+
+
+@media only screen and (min-width:768px) {
+   
+    .container { 
+        max-width: 1180px;
+        margin: auto;
+    }
+    h1 { font-size: 2.5em; }
+    h2{font-size: 2.2em;}
+    h5 { padding: 0 20px 0 0 ;}
+    .summerh2{
+        font-size: 2.4em;
+        }
+    menu { 
+        float: right; 
+        padding: 10px 0;
+    }
+    menu li { 
+        display: inline-block;
+        padding: 0 2vw;
+    }
+    #title {
+        left: 115px;
+        width: initial;
+        text-align: right;
+    }
+    .row:after{
+        display: table;
+        content: '';
+        clear: both;
+    }
+    .section1 {
+        h2{
+            font-size: 2.8em;
+        }
+    }
+    .fleft { float: left }
+    .fright { float: right }
+    .col25 { width: 25% }
+    .col33 { width: 33.33% }
+    .col66 { width: 66.66% }
+    .footertop{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 20px;
+        padding-top: 30px;
+    }
+    .footertitle{
+        width: 40%;        
+    }
+    
+
+    .footerbottom{
+       form{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        
+        input{
+            width: 10%;
+        }
+       }
+
+    }
+    #email{
+        width: 30% ;
+    }
+
+}
